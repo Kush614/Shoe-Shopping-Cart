@@ -1,0 +1,79 @@
+/* Font*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-background: #f7f7f7;
+  --primary-color: #282828;
+  --heading-color: #282828;
+  --text-color: #353535f3;
+  --grey-text: #808080f1;
+  --smooth-shadow: 0.9px 2.8px 4.2px #00000067, 2.2px 6.7px 5.3px #0000005d,
+    4.1px 12.5px 10px #00000009, 7.4px 22.3px 17.9px #0000000b,
+    13.8px 41.8px 33.4px #0000000d, 33px 100px 80px #00000012;
+  --border-color: #0000001f;
+  --primary-font: "Open Sans", sans-serif;
+}
+
+.headings {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+}
+.subheading{
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+}
+.text {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--border-color);
+}
+
+.lists {
+  list-style-type: none;
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  text-transform: capitalize;
+}
+
+.btn {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+
+.span {
+  font-family: var(--primary-font);
+}
+
+.icons {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 100%;
+
+  padding: 0 1rem;
+}
+
+.wrapper {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+
+::placeholder{
+  font-family: var(--primary-font);
+}

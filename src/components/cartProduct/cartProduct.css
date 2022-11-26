@@ -1,0 +1,34 @@
+.cart-product-card {
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+.cart-image-wrapper {
+  width: 7rem;
+  height: 7rem;
+}
+.cart-product-img {
+    width: 100%;
+    height: auto;
+  border: 1px solid var(--border-color);
+}
+
+.cross{
+    color: red;
+    position: absolute;
+    font-size: .7rem;
+    font-weight: 700;
+    display: block;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-family: var(--primary-font);
+    left: -.7rem;
+    top: -.3rem;
+    cursor: pointer;
+}

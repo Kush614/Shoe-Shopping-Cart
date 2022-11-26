@@ -1,0 +1,16 @@
+
+
+.team-wrapper{
+    margin: 1rem auto;
+}
+.member-quote{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.team-member-container{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

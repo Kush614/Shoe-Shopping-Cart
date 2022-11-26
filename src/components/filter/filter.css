@@ -1,0 +1,48 @@
+.filter-icon {
+  font-size: 1rem;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-title {
+  font-size: 1rem;
+}
+
+.filters-container {
+  margin: 1rem 0;
+}
+
+.filter-colors {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.input-rating, .input-checkbox{
+    cursor: pointer;
+    
+}
+
+.filter-label{
+    display: block;
+    margin-bottom: .4rem;
+}
+
+.star-icon{
+    font-size: .5rem;
+    color: goldenrod;
+}
+
+.btn-clear{
+  font-weight: 600;
+  cursor: pointer;
+}
